@@ -1,0 +1,48 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Mulish:wght@300;400;600;700&display=swap");
+
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #458ff6;
+  border: none;
+}
+/* container */
+.container {
+  max-width: 1267px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* GLOBAL STYLES END */
